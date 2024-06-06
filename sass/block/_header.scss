@@ -1,0 +1,34 @@
+header{
+    width: 100%;
+    padding: 10px;
+    background: rgb(245, 229, 232);
+    .nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .nav__collect{
+            .nav__title{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 15px;
+                .nav__item{
+                    display: flex;
+                    align-items: center;
+                    select{
+                        background: inherit;
+                        border: none;
+                    }
+                    .icon__img{
+                      position: relative;
+                      .icon{
+                        position: absolute;
+                        right: 0;
+                        bottom: 0;
+                      }
+                    }
+                }
+            }
+        }
+    }
+}
